@@ -1,0 +1,527 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#"
+     xml:base="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#doActivity -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#doActivity">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Activities"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Participants"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#results -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#results">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Activities"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Data"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Label1 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Label1">
+        <rdfs:comment>--- 1: Working at Computer</rdfs:comment>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Activities"/>
+        <rdfs:range rdf:resource="&xsd;integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Label2 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Label2">
+        <rdfs:comment>--- 2: Standing Up, Walking and Going up\down stairs</rdfs:comment>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Activities"/>
+        <rdfs:range rdf:resource="&xsd;integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Label3 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Label3">
+        <rdfs:comment>--- 3: Standing</rdfs:comment>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Activities"/>
+        <rdfs:range rdf:resource="&xsd;integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Label4 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Label4">
+        <rdfs:comment>--- 4: Walking</rdfs:comment>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Activities"/>
+        <rdfs:range rdf:resource="&xsd;integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Label5 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Label5">
+        <rdfs:comment>--- 5: Going Up\Down Stairs</rdfs:comment>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Activities"/>
+        <rdfs:range rdf:resource="&xsd;integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Label6 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Label6">
+        <rdfs:comment>--- 6: Walking and Talking with Someone</rdfs:comment>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Activities"/>
+        <rdfs:range rdf:resource="&xsd;integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Label7 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Label7">
+        <rdfs:comment>--- 7: Talking while Standing</rdfs:comment>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Activities"/>
+        <rdfs:range rdf:resource="&xsd;integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Activities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Activities">
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Participants"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Data -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Data"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Participants -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Participants"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#SequentialNumber -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#SequentialNumber">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Data"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#XAcceleration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#XAcceleration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Data"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#YAcceleration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#YAcceleration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Data"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#ZAcceleration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#ZAcceleration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Data"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#GoingUpDownStairs -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#GoingUpDownStairs">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Activities"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Participant01 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Participant01">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Participants"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#GoingUpDownStairs"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Standing"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#StandingUpWalkingGoingUpDownStairs"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#TalkingStanding"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Walking"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#WalkingTalking"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#WorkingAtPC"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Participant02 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Participant02">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Participants"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#GoingUpDownStairs"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Standing"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#StandingUpWalkingGoingUpDownStairs"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#TalkingStanding"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Walking"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#WalkingTalking"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#WorkingAtPC"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Participant03 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Participant03">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Participants"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#GoingUpDownStairs"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Standing"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#StandingUpWalkingGoingUpDownStairs"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#TalkingStanding"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Walking"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#WalkingTalking"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#WorkingAtPC"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Participant04 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Participant04">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Participants"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#GoingUpDownStairs"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Standing"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#StandingUpWalkingGoingUpDownStairs"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#TalkingStanding"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Walking"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#WalkingTalking"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#WorkingAtPC"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Participant05 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Participant05">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Participants"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#GoingUpDownStairs"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Standing"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#StandingUpWalkingGoingUpDownStairs"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#TalkingStanding"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Walking"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#WalkingTalking"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#WorkingAtPC"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Participant06 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Participant06">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Participants"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#GoingUpDownStairs"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Standing"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#StandingUpWalkingGoingUpDownStairs"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#TalkingStanding"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Walking"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#WalkingTalking"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#WorkingAtPC"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Participant07 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Participant07">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Participants"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#GoingUpDownStairs"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Standing"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#StandingUpWalkingGoingUpDownStairs"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#TalkingStanding"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Walking"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#WalkingTalking"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#WorkingAtPC"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Participant08 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Participant08">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Participants"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#GoingUpDownStairs"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Standing"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#StandingUpWalkingGoingUpDownStairs"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#TalkingStanding"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Walking"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#WalkingTalking"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#WorkingAtPC"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Participant09 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Participant09">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Participants"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#GoingUpDownStairs"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Standing"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#StandingUpWalkingGoingUpDownStairs"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#TalkingStanding"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Walking"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#WalkingTalking"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#WorkingAtPC"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Participant10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Participant10">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Participants"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#GoingUpDownStairs"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Standing"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#StandingUpWalkingGoingUpDownStairs"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#TalkingStanding"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Walking"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#WalkingTalking"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#WorkingAtPC"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Participant11 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Participant11">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Participants"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#GoingUpDownStairs"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Standing"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#StandingUpWalkingGoingUpDownStairs"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#TalkingStanding"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Walking"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#WalkingTalking"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#WorkingAtPC"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Participant12 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Participant12">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Participants"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#GoingUpDownStairs"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Standing"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#StandingUpWalkingGoingUpDownStairs"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#TalkingStanding"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Walking"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#WalkingTalking"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#WorkingAtPC"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Participant13 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Participant13">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Participants"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#GoingUpDownStairs"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Standing"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#StandingUpWalkingGoingUpDownStairs"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#TalkingStanding"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Walking"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#WalkingTalking"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#WorkingAtPC"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Participant14 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Participant14">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Participants"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#GoingUpDownStairs"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Standing"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#StandingUpWalkingGoingUpDownStairs"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#TalkingStanding"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Walking"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#WalkingTalking"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#WorkingAtPC"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Participant15 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Participant15">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Participants"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#GoingUpDownStairs"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Standing"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#StandingUpWalkingGoingUpDownStairs"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#TalkingStanding"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Walking"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#WalkingTalking"/>
+        <doActivity rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#WorkingAtPC"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Standing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Standing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Activities"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#StandingUpWalkingGoingUpDownStairs -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#StandingUpWalkingGoingUpDownStairs">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Activities"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#TalkingStanding -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#TalkingStanding">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Activities"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Walking -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Walking">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Activities"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#WalkingTalking -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#WalkingTalking">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Activities"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#WorkingAtPC -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#WorkingAtPC">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Activities"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Xvalue -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Xvalue">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#XAcceleration"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Yvalue -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Yvalue">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#YAcceleration"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Zvalue -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#Zvalue">
+        <rdf:type rdf:resource="http://www.semanticweb.org/sky/ontologies/2015/6/untitled-ontology-22#ZAcceleration"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="&owl;Thing">
+        <rdfs:comment>Assignment 2 on Protege, its data is on the Single Chest Mounted Accelerometer</rdfs:comment>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+
