@@ -1,0 +1,150 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://org.semwebprogramming/chapter2/people#"
+     xml:base="http://org.semwebprogramming/chapter2/people"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://org.semwebprogramming/chapter2/people#hasFriend -->
+
+    <owl:AnnotationProperty rdf:about="http://org.semwebprogramming/chapter2/people#hasFriend"/>
+    
+
+
+    <!-- http://org.semwebprogramming/chapter2/people#hasName -->
+
+    <owl:AnnotationProperty rdf:about="http://org.semwebprogramming/chapter2/people#hasName"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://org.semwebprogramming/chapter2/people#Individual -->
+
+    <owl:Class rdf:about="http://org.semwebprogramming/chapter2/people#Individual"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://org.semwebprogramming/chapter2/people#Individual_5 -->
+
+    <owl:NamedIndividual rdf:about="http://org.semwebprogramming/chapter2/people#Individual_5">
+        <rdf:type rdf:resource="http://org.semwebprogramming/chapter2/people#Individual"/>
+        <hasName>Peter Smith</hasName>
+        <hasFriend rdf:resource="http://org.semwebprogramming/chapter2/people#Individual_6"/>
+        <hasFriend rdf:resource="http://org.semwebprogramming/chapter2/people#Individual_7"/>
+        <hasFriend rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Individual_4"/>
+        <hasFriend rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Individual_8"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://org.semwebprogramming/chapter2/people#Individual_6 -->
+
+    <owl:NamedIndividual rdf:about="http://org.semwebprogramming/chapter2/people#Individual_6">
+        <rdf:type rdf:resource="http://org.semwebprogramming/chapter2/people#Individual"/>
+        <hasName>Katherin Waslt</hasName>
+        <hasFriend rdf:resource="http://org.semwebprogramming/chapter2/people#Individual_5"/>
+        <hasFriend rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Individual_4"/>
+        <hasFriend rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Individual_9"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://org.semwebprogramming/chapter2/people#Individual_7 -->
+
+    <owl:NamedIndividual rdf:about="http://org.semwebprogramming/chapter2/people#Individual_7">
+        <rdf:type rdf:resource="http://org.semwebprogramming/chapter2/people#Individual"/>
+        <hasName>Miss. Ho</hasName>
+        <hasFriend rdf:resource="http://org.semwebprogramming/chapter2/people#Individual_5"/>
+        <hasFriend rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Individual_8"/>
+        <hasFriend rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Individual_9"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Individual_4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Individual_4">
+        <rdf:type rdf:resource="http://org.semwebprogramming/chapter2/people#Individual"/>
+        <hasName>Honag Ho</hasName>
+        <hasFriend rdf:resource="http://org.semwebprogramming/chapter2/people#Individual_5"/>
+        <hasFriend rdf:resource="http://org.semwebprogramming/chapter2/people#Individual_6"/>
+        <hasFriend rdf:resource="http://org.semwebprogramming/chapter2/people#Individual_7"/>
+        <hasFriend rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Individual_8"/>
+        <hasFriend rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Individual_9"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Individual_8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Individual_8">
+        <rdf:type rdf:resource="http://org.semwebprogramming/chapter2/people#Individual"/>
+        <hasName>Tran Ho</hasName>
+        <hasFriend rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Individual_4"/>
+        <hasFriend rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Individual_9"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Individual_9 -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Individual_9">
+        <rdf:type rdf:resource="http://org.semwebprogramming/chapter2/people#Individual"/>
+        <hasName>Tuyen Ho</hasName>
+        <hasFriend rdf:resource="http://org.semwebprogramming/chapter2/people#Individual_5"/>
+        <hasFriend rdf:resource="http://org.semwebprogramming/chapter2/people#Individual_6"/>
+        <hasFriend rdf:resource="http://org.semwebprogramming/chapter2/people#Individual_7"/>
+        <hasFriend rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Individual_4"/>
+        <hasFriend rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Individual_8"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+
