@@ -1,0 +1,1855 @@
+2005-06-28 18:01:51,684 INFO SesameConnection starting up...
+2005-06-28 18:01:51,685 DEBUG GET:http://localhost:7080/sesame/servlets/listRepositories
+2005-06-28 18:01:51,691 DEBUG OK
+2005-06-28 18:01:51,749 DEBUG POST:http://localhost:7080/sesame/servlets/logout
+2005-06-28 18:01:51,754 DEBUG OK: 23 bytes
+2015-08-04 14:14:41,441 INFO SesameConnection starting up...
+2015-08-04 14:14:41,441 DEBUG GET:http://localhost:7080/sesame/servlets/listRepositories
+2015-08-04 14:14:43,446 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:49:21,885 INFO SesameConnection starting up...
+2015-08-04 14:49:21,885 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:49:23,891 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:49:23,941 DEBUG POST:http://localhost:7080/sesame/servlets/logout
+2015-08-04 14:49:25,963 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:49:25,963 INFO SesameConnection starting up...
+2015-08-04 14:49:25,963 INFO SesameConnection starting up...
+2015-08-04 14:49:25,964 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:49:25,964 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:49:27,964 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:49:27,964 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:49:27,966 DEBUG POST:http://localhost:7080/sesame/servlets/logout
+2015-08-04 14:49:27,966 DEBUG POST:http://localhost:7080/sesame/servlets/logout
+2015-08-04 14:49:29,963 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:49:29,963 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:49:29,964 INFO SesameConnection starting up...
+2015-08-04 14:49:29,964 INFO SesameConnection starting up...
+2015-08-04 14:49:29,964 INFO SesameConnection starting up...
+2015-08-04 14:49:29,966 DEBUG GET:http://localhost:7080/sesame/servlets/listRepositories
+2015-08-04 14:49:29,966 DEBUG GET:http://localhost:7080/sesame/servlets/listRepositories
+2015-08-04 14:49:29,966 DEBUG GET:http://localhost:7080/sesame/servlets/listRepositories
+2015-08-04 14:49:31,966 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:49:31,966 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:49:31,966 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:49:31,967 DEBUG POST:http://localhost:7080/sesame/servlets/logout
+2015-08-04 14:49:31,967 DEBUG POST:http://localhost:7080/sesame/servlets/logout
+2015-08-04 14:49:31,967 DEBUG POST:http://localhost:7080/sesame/servlets/logout
+2015-08-04 14:49:33,967 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:49:33,967 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:49:33,967 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:49:33,969 INFO SesameConnection starting up...
+2015-08-04 14:49:33,969 INFO SesameConnection starting up...
+2015-08-04 14:49:33,969 INFO SesameConnection starting up...
+2015-08-04 14:49:33,969 INFO SesameConnection starting up...
+2015-08-04 14:49:33,969 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:49:33,969 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:49:33,969 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:49:33,969 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:49:35,987 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:49:35,987 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:49:35,987 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:49:35,987 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:49:35,990 INFO SesameConnection starting up...
+2015-08-04 14:49:35,990 INFO SesameConnection starting up...
+2015-08-04 14:49:35,990 INFO SesameConnection starting up...
+2015-08-04 14:49:35,990 INFO SesameConnection starting up...
+2015-08-04 14:49:35,990 INFO SesameConnection starting up...
+2015-08-04 14:49:35,990 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:49:35,990 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:49:35,990 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:49:35,990 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:49:35,990 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:49:37,989 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:49:37,989 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:49:37,989 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:49:37,989 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:49:37,989 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:49:37,990 INFO SesameConnection starting up...
+2015-08-04 14:49:37,990 INFO SesameConnection starting up...
+2015-08-04 14:49:37,990 INFO SesameConnection starting up...
+2015-08-04 14:49:37,990 INFO SesameConnection starting up...
+2015-08-04 14:49:37,990 INFO SesameConnection starting up...
+2015-08-04 14:49:37,990 INFO SesameConnection starting up...
+2015-08-04 14:49:37,990 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:49:37,990 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:49:37,990 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:49:37,990 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:49:37,990 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:49:37,990 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:49:39,990 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:49:39,990 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:49:39,990 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:49:39,990 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:49:39,990 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:49:39,990 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:49:39,993 INFO SesameConnection starting up...
+2015-08-04 14:49:39,993 INFO SesameConnection starting up...
+2015-08-04 14:49:39,993 INFO SesameConnection starting up...
+2015-08-04 14:49:39,993 INFO SesameConnection starting up...
+2015-08-04 14:49:39,993 INFO SesameConnection starting up...
+2015-08-04 14:49:39,993 INFO SesameConnection starting up...
+2015-08-04 14:49:39,993 INFO SesameConnection starting up...
+2015-08-04 14:49:39,993 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:49:39,993 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:49:39,993 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:49:39,993 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:49:39,993 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:49:39,993 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:49:39,993 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:49:42,002 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:49:42,002 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:49:42,002 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:49:42,002 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:49:42,002 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:49:42,002 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:49:42,002 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:49:42,051 INFO SesameConnection starting up...
+2015-08-04 14:49:42,051 INFO SesameConnection starting up...
+2015-08-04 14:49:42,051 INFO SesameConnection starting up...
+2015-08-04 14:49:42,051 INFO SesameConnection starting up...
+2015-08-04 14:49:42,051 INFO SesameConnection starting up...
+2015-08-04 14:49:42,051 INFO SesameConnection starting up...
+2015-08-04 14:49:42,051 INFO SesameConnection starting up...
+2015-08-04 14:49:42,051 INFO SesameConnection starting up...
+2015-08-04 14:49:42,052 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:49:42,052 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:49:42,052 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:49:42,052 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:49:42,052 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:49:42,052 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:49:42,052 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:49:42,052 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:49:49,099 INFO SesameConnection starting up...
+2015-08-04 14:49:49,099 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:49:51,114 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:49:51,157 DEBUG POST:http://localhost:7080/sesame/servlets/logout
+2015-08-04 14:49:53,157 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:49:53,160 INFO SesameConnection starting up...
+2015-08-04 14:49:53,160 INFO SesameConnection starting up...
+2015-08-04 14:49:53,160 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:49:53,160 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:49:55,160 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:49:55,160 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:49:55,161 DEBUG POST:http://localhost:7080/sesame/servlets/logout
+2015-08-04 14:49:55,161 DEBUG POST:http://localhost:7080/sesame/servlets/logout
+2015-08-04 14:49:57,161 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:49:57,161 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:49:57,226 INFO SesameConnection starting up...
+2015-08-04 14:49:57,226 INFO SesameConnection starting up...
+2015-08-04 14:49:57,226 INFO SesameConnection starting up...
+2015-08-04 14:49:57,226 DEBUG GET:http://localhost:7080/sesame/servlets/listRepositories
+2015-08-04 14:49:57,226 DEBUG GET:http://localhost:7080/sesame/servlets/listRepositories
+2015-08-04 14:49:57,226 DEBUG GET:http://localhost:7080/sesame/servlets/listRepositories
+2015-08-04 14:49:59,226 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:49:59,226 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:49:59,226 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:49:59,237 DEBUG POST:http://localhost:7080/sesame/servlets/logout
+2015-08-04 14:49:59,237 DEBUG POST:http://localhost:7080/sesame/servlets/logout
+2015-08-04 14:49:59,237 DEBUG POST:http://localhost:7080/sesame/servlets/logout
+2015-08-04 14:50:01,236 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:50:01,236 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:50:01,236 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:50:01,242 INFO SesameConnection starting up...
+2015-08-04 14:50:01,242 INFO SesameConnection starting up...
+2015-08-04 14:50:01,242 INFO SesameConnection starting up...
+2015-08-04 14:50:01,242 INFO SesameConnection starting up...
+2015-08-04 14:50:01,242 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:50:01,242 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:50:01,242 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:50:01,242 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:50:03,240 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:50:03,240 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:50:03,240 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:50:03,240 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:50:03,250 INFO SesameConnection starting up...
+2015-08-04 14:50:03,250 INFO SesameConnection starting up...
+2015-08-04 14:50:03,250 INFO SesameConnection starting up...
+2015-08-04 14:50:03,250 INFO SesameConnection starting up...
+2015-08-04 14:50:03,250 INFO SesameConnection starting up...
+2015-08-04 14:50:03,250 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:50:03,250 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:50:03,250 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:50:03,250 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:50:03,250 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:50:05,253 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:50:05,253 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:50:05,253 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:50:05,253 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:50:05,253 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:50:05,255 INFO SesameConnection starting up...
+2015-08-04 14:50:05,255 INFO SesameConnection starting up...
+2015-08-04 14:50:05,255 INFO SesameConnection starting up...
+2015-08-04 14:50:05,255 INFO SesameConnection starting up...
+2015-08-04 14:50:05,255 INFO SesameConnection starting up...
+2015-08-04 14:50:05,255 INFO SesameConnection starting up...
+2015-08-04 14:50:05,255 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:50:05,255 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:50:05,255 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:50:05,255 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:50:05,255 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:50:05,255 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:50:07,256 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:50:07,256 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:50:07,256 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:50:07,256 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:50:07,256 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:50:07,256 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:50:07,257 INFO SesameConnection starting up...
+2015-08-04 14:50:07,257 INFO SesameConnection starting up...
+2015-08-04 14:50:07,257 INFO SesameConnection starting up...
+2015-08-04 14:50:07,257 INFO SesameConnection starting up...
+2015-08-04 14:50:07,257 INFO SesameConnection starting up...
+2015-08-04 14:50:07,257 INFO SesameConnection starting up...
+2015-08-04 14:50:07,257 INFO SesameConnection starting up...
+2015-08-04 14:50:07,257 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:50:07,257 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:50:07,257 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:50:07,257 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:50:07,257 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:50:07,257 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:50:07,257 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:50:09,259 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:50:09,259 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:50:09,259 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:50:09,259 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:50:09,259 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:50:09,259 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:50:09,259 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:50:09,279 INFO SesameConnection starting up...
+2015-08-04 14:50:09,279 INFO SesameConnection starting up...
+2015-08-04 14:50:09,279 INFO SesameConnection starting up...
+2015-08-04 14:50:09,279 INFO SesameConnection starting up...
+2015-08-04 14:50:09,279 INFO SesameConnection starting up...
+2015-08-04 14:50:09,279 INFO SesameConnection starting up...
+2015-08-04 14:50:09,279 INFO SesameConnection starting up...
+2015-08-04 14:50:09,279 INFO SesameConnection starting up...
+2015-08-04 14:50:09,279 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:50:09,279 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:50:09,279 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:50:09,279 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:50:09,279 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:50:09,279 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:50:09,279 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:50:09,279 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:50:11,279 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:50:11,279 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:50:11,279 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:50:11,279 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:50:11,279 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:50:11,279 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:50:11,279 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:50:11,279 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:50:11,280 INFO SesameConnection starting up...
+2015-08-04 14:50:11,280 INFO SesameConnection starting up...
+2015-08-04 14:50:11,280 INFO SesameConnection starting up...
+2015-08-04 14:50:11,280 INFO SesameConnection starting up...
+2015-08-04 14:50:11,280 INFO SesameConnection starting up...
+2015-08-04 14:50:11,280 INFO SesameConnection starting up...
+2015-08-04 14:50:11,280 INFO SesameConnection starting up...
+2015-08-04 14:50:11,280 INFO SesameConnection starting up...
+2015-08-04 14:50:11,280 INFO SesameConnection starting up...
+2015-08-04 14:50:11,282 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:50:11,282 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:50:11,282 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:50:11,282 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:50:11,282 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:50:11,282 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:50:11,282 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:50:11,282 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:50:11,282 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:50:13,280 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:50:13,280 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:50:13,280 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:50:13,280 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:50:13,280 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:50:13,280 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:50:13,280 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:50:13,280 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:50:13,280 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:50:13,282 INFO SesameConnection starting up...
+2015-08-04 14:50:13,282 INFO SesameConnection starting up...
+2015-08-04 14:50:13,282 INFO SesameConnection starting up...
+2015-08-04 14:50:13,282 INFO SesameConnection starting up...
+2015-08-04 14:50:13,282 INFO SesameConnection starting up...
+2015-08-04 14:50:13,282 INFO SesameConnection starting up...
+2015-08-04 14:50:13,282 INFO SesameConnection starting up...
+2015-08-04 14:50:13,282 INFO SesameConnection starting up...
+2015-08-04 14:50:13,282 INFO SesameConnection starting up...
+2015-08-04 14:50:13,282 INFO SesameConnection starting up...
+2015-08-04 14:50:13,282 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:50:13,282 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:50:13,282 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:50:13,282 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:50:13,282 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:50:13,282 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:50:13,282 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:50:13,282 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:50:13,282 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:50:13,282 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:50:15,282 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:50:15,282 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:50:15,282 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:50:15,282 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:50:15,282 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:50:15,282 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:50:15,282 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:50:15,282 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:50:15,282 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:50:15,282 ERROR <urlopen error >
+Traceback (most recent call last):
+  File "C:\Users\Sky\Downloads\pysesame-0_23\pysesame-0_23\pySesame.py", line 92, in doRequest
+    response = urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error >
+2015-08-04 14:50:15,285 INFO SesameConnection starting up...
+2015-08-04 14:50:15,285 INFO SesameConnection starting up...
+2015-08-04 14:50:15,285 INFO SesameConnection starting up...
+2015-08-04 14:50:15,285 INFO SesameConnection starting up...
+2015-08-04 14:50:15,285 INFO SesameConnection starting up...
+2015-08-04 14:50:15,285 INFO SesameConnection starting up...
+2015-08-04 14:50:15,285 INFO SesameConnection starting up...
+2015-08-04 14:50:15,285 INFO SesameConnection starting up...
+2015-08-04 14:50:15,285 INFO SesameConnection starting up...
+2015-08-04 14:50:15,285 INFO SesameConnection starting up...
+2015-08-04 14:50:15,285 INFO SesameConnection starting up...
+2015-08-04 14:50:15,285 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:50:15,285 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:50:15,285 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:50:15,285 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:50:15,285 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:50:15,285 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:50:15,285 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:50:15,285 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:50:15,285 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:50:15,285 DEBUG POST:http://localhost:7080/sesame/servlets/login
+2015-08-04 14:50:15,285 DEBUG POST:http://localhost:7080/sesame/servlets/login
